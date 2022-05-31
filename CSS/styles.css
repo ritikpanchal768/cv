@@ -1,14 +1,106 @@
-
-body {
-    background-color: #DFEEEA;
+body{
+    margin: 0;
 }
-h1, h3{
+h1{
+    margin-top: 0;
+}
+.topname{
     color: #2F5D62;
+    font-size: 85px;
+    font-family: 'Sacramento', cursive;
+    position: absolute;
+    left: 800px; 
+    top:150px;
 }
-hr {
-    border-color: grey;
-    border-style:none;
-    border-top-style: dotted;
-    width: 10%;
-    border-width: 10px;
+.topname1{
+    font-size: 30px;
+    font-family: 'Gruppo', cursive;
+    position: absolute;
+    left: 850px; 
+    top:220px;
+}
+.topname2{
+    
+    font-size: 20px;
+    font-family: 'Gruppo', cursive;
+    position: absolute;
+    left: 320px; 
+    top:500px;
+}
+.topname3{
+    font-size: 20px;
+    font-family: 'Gruppo', cursive;
+    position: absolute;
+    left: 320px; 
+    top:550px;
+}
+.top_container {
+    background-color: #DFEEEA;
+    height: 800px;
+}
+.pro{
+    color: red;
+}
+.cloud{
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+
+.cloud1{
+    position:absolute;
+    left:350px;
+    top:200px;
+    
+}
+.man{
+    position: absolute;
+    left: 1200px;
+    top:250px;
+}
+
+.mid_container{
+    background-color: black;
+    height: 700px;
+}
+
+.rocket_img{
+    position: absolute;
+    top: 700px;
+}
+.skill{
+    color: #2F5D62;
+    position:absolute;
+    top:850px;
+    left: 700px;
+}
+.mid_table{
+    color: white;
+    position:absolute;
+    top: 900px;
+    left: 700px;
+}
+
+.work{
+    color: #2F5D62;
+    position:absolute;
+    top:1200px;
+    left: 700px;
+}
+.workexp{
+    color: white;
+    position:absolute;
+    left: 700px;
+    top:1250px;
+}
+.footer{
+    background-color: #DFEEEA;
+    height: 80px;
+}
+.lastp{
+
+    margin: 0;
+    padding-left: 46.5%;
+    padding-top: 10px;
+    font-family: 'Gruppo', cursive;
 }
